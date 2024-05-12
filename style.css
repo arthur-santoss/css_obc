@@ -1,5 +1,38 @@
- p{
-    color: white;
-    font-size: x-large ;
- }
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/um-por-do-sol-de-tirar-o-folego-lancando-tons-dourados-sobre-a-vasta-extensao-do-deserto_1268-30742.jpg?w=900&t=st=1715513858~exp=1715514458~hmac=bd924282cbf598ebded2e913b4c559bc25278a35f12a2fa0e8c00ab061377741);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+header{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: white;
+    border-width: 4px;
+    border-color: #1c1a1d;
+    border-style: solid;
+    padding: 10px;
+}
+
+.box1{
+    background-color: rgb(43, 119, 43);
+    height: 64px;
+    width: 320px;
+}
+
+.box2{
+    background-image: linear-gradient(0deg, red,white);
+    height: 140px;
+    width: 320px;
+}
+
+.box3{
+    background-color: blueviolet;
+    border: 2px solid #1c1a1d;
+    border-radius: 10px 0px 10px 0px;
+    height: 64px;
+    width: 320px;
+}
