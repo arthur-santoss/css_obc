@@ -1,0 +1,38 @@
+/* seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#secao-principal {
+    /* display: flex; */
+    border: 1px red solid;
+    width: 100%;
+}
+
+h1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+li{
+    display: inline-block;
+    background-color: rgb(37, 36, 36);
+    border: 4px solid transparent;
+    border-radius: 4px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    height: 10%;
+    width: 22%;
+}
+
+.selected{
+    background-color: hsl(280, 5%, 21%);
+    border: 4px solid #0088d8;
+}
+
+.hidden{
+    display: none;
+}
