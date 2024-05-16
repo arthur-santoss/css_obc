@@ -1,0 +1,33 @@
+/* seletor :nth-child() */
+li:nth-child(2){
+    color: red;
+}
+
+li:nth-child(3n){
+    color: blue;
+}
+
+li:hover{
+    background-color: gray;
+}
+
+input:focus{
+    background-color: red;
+}
+
+/* Pseudo-elementos -> ::before e ::after */
+li::before{
+    content: "(Antes)";
+}
+
+li::after{
+    content: "(Depois)";
+}
+
+li:first-child{
+    color:aqua;
+}
+
+li:not(:first-child){
+    color:gray;
+}
